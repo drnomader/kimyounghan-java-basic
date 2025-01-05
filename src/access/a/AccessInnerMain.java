@@ -7,11 +7,11 @@ public class AccessInnerMain {
 		data.publicField = 1;
 		data.publicMethod();
 
-		//default: same package
+		//default: same package only
 		data.defaultField = 2;
 		data.defaultMethod();
 
-		//private: same class
+		//private: same class only
 		//data.privateField = 3;
 		//data.privateMethod();
 

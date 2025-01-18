@@ -2,7 +2,7 @@ package poly.ex4;
 
 public class AbstractMain {
 	public static void main(String[] args) {
-		//unable to initialize abstract class
+		//unable to instantiate abstract class
 		//AbstractAnimal abstractAnimal = new AbstractAnimal();
 
 		Dog dog = new Dog();
@@ -23,7 +23,6 @@ public class AbstractMain {
 		System.out.println("동물 소리 테스트 종료");
 	}
 
-	//unchanging code
 	private static void moveAnimal(AbstractAnimal animal) {
 		System.out.println("동물 이동 테스트 시작");
 		animal.move();
